@@ -1,0 +1,16 @@
+{
+  "name": "getmore",
+  "version": "1.0.0",
+  "description": "ejercicio de maquetación",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "html"
+  ],
+  "author": "AdrianaHY",
+  "license": "ISC"
+}
