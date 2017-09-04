@@ -1,0 +1,160 @@
+@import "variables";
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+.container{
+  width:100%;
+  /*max-width: 1200px;*/
+  margin:0px;
+}
+.row:before, .row:after{
+  content:" ";
+  display: table;
+}
+.row:after{
+  clear:both;
+}
+[class*="col-"]{
+  min-height: 7px;
+  padding:12px;
+  float:left;
+}
+
+.col-1{
+  /*(1/12)x100*/
+  width:8.33%;
+}
+.col-2{
+  /*(2/12)x100*/
+  width:16.66%;
+}
+.col-3{
+  /*(3/12)x100*/
+  width:25%;
+}
+.col-4{
+  /*(4/12)x100*/
+  width:33.33%;
+}
+.col-5{
+  /*(5/12)x100*/
+  width:41.66%;
+}
+.col-6{
+  /*(6/12)x100*/
+  width:50%;
+}
+.col-7{
+  /*(7/12)x100*/
+  width:58.33%;
+}
+.col-8{
+  /*(8/12)x100*/
+  width:66.66%;
+}
+.col-9{
+  /*(9/12)*100*/
+  width:75%;
+}
+.col-10{
+  /*(10/12)*100*/
+  width:83.33%;
+}
+.col-11{
+  /*(11/12)x100*/
+  width:91.66%;
+}
+.col-12{
+  /*(12/12)x100*/
+  width:100%;
+  text-align: center;
+}
+.margin-leftButtons{
+  margin-left: 55%;
+}
+a{
+  padding:3%;
+  margin-top:2%;
+  margin-bottom: 2%;
+  text-align: center;
+
+&:hover{
+  background: $squash;
+  border-radius: 65px;
+  color:$white;
+}
+}
+
+#seccionUno{
+  background-image: url(/assets/img/imagen1.jpg);
+  height: 60vh;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tituloUno{
+  color:$white;
+  font-size: 10vh;
+  margin-top: 5%;
+}
+#tituloDos{
+  color:$white;
+  font-size: 5vh;
+}
+#seccionDos{
+  margin-top: 5%;
+}
+#circulo{
+  background: $squash;
+  border-radius: 100%;
+  text-align: center;
+  width:3%;
+  span{
+    color:$white;
+    padding:0;
+    margin-right: 40px;
+  }
+}
+.margin-left{
+  margin-left: 300px;
+  margin-top: $margin-top;
+}
+
+.imagen1{
+  margin-left: 200px;
+}
+.parrafo-naranja{
+  color:$squash;
+  width: 70%;
+  margin-top: 6%;
+  height: 51px;
+  font-size: 2.5vh;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.parrafo-gris{
+  width: 40%;
+  height: 51px;
+  font-size: 2vh;
+  font-weight: 500;
+  text-align: center;
+  color:$greyish;
+  margin-top: 6%;
+}
+#registrate{
+  margin-top: 15%;
+
+}
+.boton-registro{
+  background: $squash;
+  border-radius: 35px;
+  color: $white;
+  padding:1%;
+}
